@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 44, 44);
+}
+ 
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 25px;
+}
+ 
+main {
+    width: 100%;
+    display: flex;
+}
+ 
+section {
+    flex: 1 0 40%;
+    margin: 20px;
+    border-radius: 20px;
+}
+ 
+header {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px;
+    color: #fff;
+    box-shadow: -10px 20px 100px rgba(0, 0, 0, 0.4);
+}
+ 
+img.round-image {
+    border-radius: 20%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+ 
+.intro,
+.main,
+.utdanning {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+ 
+.main {
+    box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
+}
+ 
+ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+ul li {
+    margin-bottom: 10px;
+}
+ 
+progress {
+    width: 100%;
+    height: 20px;
+}
+ 
+.blue-stripe {
+    width: 5px;
+    background-color: rgb(0, 122, 255);
+    border-radius: 50px;
+}
+ 
+.ferdigheter {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ 
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: #fffbfb;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+}
+ 
+  a[href^="https://www.tiktok.com/@miko.ewuew"] {
+    color: rgb(0, 122, 255);
+  }
+ 
+  a[href^="https://www.instagram.com/@miko_mdrfck"] {
+    color: rgb(0, 122, 255);
+  }
+ 
+  a[href^="https://twitter.com/@Mik0Xd"] {
+    color: rgb(0, 122, 255);
+  }
+  a.gmail-link {
+    color: rgb(0, 122, 255);
+}
+has context menu
